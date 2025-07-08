@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    font-family: "Sour Gummy"
+}
+
+/* HEADER */
+
+header {
+    padding: 30px;
+    color: white;
+    background-color: #bd566c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Coiny";
+}
+
+/* MAIN */
+
+#popular {
+    background-color: #f3b7a0;
+    color: #ffffff;
+    padding: 30px;
+}
+
+/* SECTION ARTICLES */
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 3px 3px 10px #0000004d;
+}
+
+.popular-article-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    margin: auto;
+    gap: 30px;
+    flex-wrap: nowrap;
+    width: 95%;
+}
+
+.card {
+    height: 700px;
+    width: calc(25% - 20px);
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.301);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: #c75b7a;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.02) 
+}
+
+.card-header img {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card-content a {
+    color: #c75b7a;
+    margin: 20px;
+    background-color: #ffb04968;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.card-content a:hover {
+    background-color: #c75b7a;
+    color: #f2c6a9;
+}
+
+.card-content p {
+    color: rgba(0, 0, 0, 0.447);
+    padding: 0 20px 10px 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: 180px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+/* SECTION SEARCH */
+
+#search {
+    background: #bd566c;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.form-search,
+.input-search {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+}
+
+.form-search {
+    position: relative;
+}
+
+.input-search {
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: "Sour Gummy";
+}
+
+.input-search:focus {
+    outline: none;
+}
+
+.search-container button {
+    background-color: #a01f48;
+    border-radius: 8px;
+    color: white;
+    box-sizing: border-box;
+    border: none;
+    object-fit: fill;
+    position: absolute;
+    right: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Sour Gummy";
+}
+
+/* FOOTER */
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: #a01f48;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
