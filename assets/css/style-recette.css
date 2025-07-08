@@ -12,7 +12,7 @@ body {
 header {
     padding: 30px;
     color: white;
-    background-color: #a01f48;
+    background-color: #bd566c;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,7 +41,7 @@ header nav ul {
 /* SECTION RECETTE */
 
 #recipe {
-    background-color: #ffb4a2;
+    background-color: #f3b7a0;
     color: #3b0a28;
     padding: 40px 60px;
     text-align: center;
@@ -108,6 +108,9 @@ header nav ul {
 
 .steps {
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .steps p {
@@ -117,6 +120,9 @@ header nav ul {
 }
 
 .steps ol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding-left: 20px;
     margin: 0;
 }
@@ -124,7 +130,7 @@ header nav ul {
 /* SECTION SEARCH */
 
 #search {
-    background: #c75b7a;
+    background: #bd566c;
     height: 200px;
     display: flex;
     align-items: center;
